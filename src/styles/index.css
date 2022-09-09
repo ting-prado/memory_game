@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  padding: 2rem 6rem;
+  background: url('../images/bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}

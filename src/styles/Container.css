@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+.container {
+  min-height: 100vh;
+  min-width: 500px;
+  background-color: #2a1b1be7;
+}
+
+button,
+.card {
+  cursor: pointer;
+}
+
+button {
+  padding: 0.5rem;
+  background: rgb(56, 24, 24);
+  border: none;
+  font-size: 1.2rem;
+  box-shadow: 0 3px 5px black;
+}
+
+button,
+.instruction p {
+  font-family: 'Combo', cursive;
+  color: #5e8315;
+}
+
+button:hover,
+button:active {
+  background-color: rgb(46, 19, 19);
+  color: #78a71c;
+  transform: scale(1.1);
+}
+
+.initial > div {
+  padding: 1rem;
+  display: flex;
+  background: #0a080870;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(35%);
+}
+
+.instruction {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.instruction > p {
+  font-size: 2rem;
+  max-width: 300px;
+}
+
+.loading {
+  background-color: #2a1b1b;
+  position: relative;
+}
+
+.gridCont {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.gif {
+  display: block;
+  width: 250px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 40%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  position: absolute;
+}
