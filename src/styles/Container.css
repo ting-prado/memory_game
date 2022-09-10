@@ -3,7 +3,7 @@
 .container {
   min-height: 100vh;
   min-width: 500px;
-  background-color: #2a1b1be7;
+  background-color: #2a1b1bc0;
 }
 
 button,
@@ -22,13 +22,13 @@ button {
 button,
 .instruction p {
   font-family: 'Combo', cursive;
-  color: #5e8315;
+  color: #55893b;
 }
 
 button:hover,
 button:active {
   background-color: rgb(46, 19, 19);
-  color: #78a71c;
+  color: #64a046;
   transform: scale(1.1);
 }
 
@@ -60,8 +60,10 @@ button:active {
 }
 
 .gridCont {
+  padding: 2.5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .gif {

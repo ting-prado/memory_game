@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Gravity Falls';
+  src: url('./gravity-falls/gravitation_falls.ttf');
+}
+
+.Card {
+  overflow: hidden;
+  border-radius: 0.8rem;
+  height: 100%;
+  border: 3px solid #2e1010;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+  max-height: 320px;
+  cursor: pointer;
+  box-shadow: 0px 2px 3px 2px #2e1010;
+}
+
+.Card:hover {
+  border: 5px solid #2e1010;
+  box-shadow: 0px 2px 10px 5px #55893b;
+  transform: scale(1.04);
+}
+
+.Card img {
+  width: initial;
+  max-width: none;
+  height: inherit;
+  filter: brightness(75%);
+}
+
+.Card p {
+  font-family: 'Gravity Falls', sans-serif;
+  color: #55893b;
+  -webkit-text-stroke: 1px #2e1010;
+  font-size: 1.2rem;
+  margin: 5px 0;
+}

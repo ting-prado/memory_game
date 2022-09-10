@@ -5,8 +5,8 @@
 }
 
 #root {
-  padding: 2rem 6rem;
+  padding: 2rem 4rem;
   background: url('../images/bg.jpg') no-repeat;
+  background-position: top;
   background-size: cover;
-  background-position: center;
 }
