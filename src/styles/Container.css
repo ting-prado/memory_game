@@ -2,7 +2,6 @@
 
 .container {
   min-height: 100vh;
-  min-width: 500px;
   background-color: #2a1b1bc0;
 }
 
@@ -76,4 +75,29 @@ button:active {
   transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   position: absolute;
+}
+
+@media screen and (max-width: 600px) {
+  .gridCont {
+    justify-items: center;
+    column-gap: 3rem;
+  }
+
+  .initial > div {
+    transform: translateY(0);
+    height: 100vh;
+  }
+
+  .instruction {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .instruction img {
+    transform: scale(0.7);
+  }
+
+  .instruction > p {
+    font-size: 150%;
+  }
 }

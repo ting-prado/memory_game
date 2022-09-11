@@ -10,3 +10,9 @@
   background-position: top;
   background-size: cover;
 }
+
+@media screen and (max-width: 600px) {
+  #root {
+    padding: 2rem 1rem;
+  }
+}

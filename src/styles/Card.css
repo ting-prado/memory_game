@@ -16,6 +16,7 @@
   max-height: 320px;
   cursor: pointer;
   box-shadow: 0px 2px 3px 2px #2e1010;
+  position: relative;
 }
 
 .Card:hover {
@@ -37,4 +38,17 @@
   -webkit-text-stroke: 1px #2e1010;
   font-size: 1.2rem;
   margin: 5px 0;
+}
+
+.cover {
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .Card {
+    width: 250px;
+  }
 }
