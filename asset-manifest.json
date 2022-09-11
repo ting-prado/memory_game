@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/memory_game/static/css/main.4f812872.css",
+    "main.js": "/memory_game/static/js/main.25893bfe.js",
+    "static/js/787.69b12325.chunk.js": "/memory_game/static/js/787.69b12325.chunk.js",
+    "static/media/wallpaper.jpg": "/memory_game/static/media/wallpaper.bdda50cafc7989d0e443.jpg",
+    "static/media/chest.gif": "/memory_game/static/media/chest.732d0b25766d9e7cfe34.gif",
+    "static/media/bg.jpg": "/memory_game/static/media/bg.9f6c2343d34612387d67.jpg",
+    "static/media/stan-pines.png": "/memory_game/static/media/stan-pines.bc09f762edc8c4fa2985.png",
+    "static/media/mcgucket.webp": "/memory_game/static/media/mcgucket.596cd92a30cb361451a4.webp",
+    "static/media/durland.webp": "/memory_game/static/media/durland.63d0953c2f289f1cb50e.webp",
+    "static/media/pacifica.webp": "/memory_game/static/media/pacifica.158afce454a8f8162dfa.webp",
+    "static/media/mabel.webp": "/memory_game/static/media/mabel.7a9edee37427dc8640c3.webp",
+    "static/media/blubs.webp": "/memory_game/static/media/blubs.d62ce5769a4dbc120104.webp",
+    "static/media/wendy.webp": "/memory_game/static/media/wendy.eac96daeeeb2257438dc.webp",
+    "static/media/gompers.webp": "/memory_game/static/media/gompers.b45f5f6e2d98fbb8bc08.webp",
+    "static/media/ford.webp": "/memory_game/static/media/ford.5cfc5534d91f4d493eb5.webp",
+    "static/media/robbie.webp": "/memory_game/static/media/robbie.3c42b2f65ef25f97acc3.webp",
+    "static/media/waddles.webp": "/memory_game/static/media/waddles.58ab963e8bbc803df50b.webp",
+    "static/media/dipper.webp": "/memory_game/static/media/dipper.2a1a65e4c5b1715c4e71.webp",
+    "static/media/soos.webp": "/memory_game/static/media/soos.6f9f4a7cc481a20246d5.webp",
+    "static/media/susan.webp": "/memory_game/static/media/susan.a9a1745b809b094122f3.webp",
+    "static/media/grunkle_stan.webp": "/memory_game/static/media/grunkle_stan.b6c67f99a44114e29f9b.webp",
+    "static/media/gideon.webp": "/memory_game/static/media/gideon.4b2928ed272cd6f62305.webp",
+    "static/media/bill.webp": "/memory_game/static/media/bill.d9970e5237759f0af04a.webp",
+    "static/media/gravitation_falls.ttf": "/memory_game/static/media/gravitation_falls.4b766b08c37e8817cb96.ttf",
+    "index.html": "/memory_game/index.html",
+    "main.4f812872.css.map": "/memory_game/static/css/main.4f812872.css.map",
+    "main.25893bfe.js.map": "/memory_game/static/js/main.25893bfe.js.map",
+    "787.69b12325.chunk.js.map": "/memory_game/static/js/787.69b12325.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f812872.css",
+    "static/js/main.25893bfe.js"
+  ]
+}
