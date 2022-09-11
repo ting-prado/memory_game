@@ -10,7 +10,6 @@ const App = () => {
   });
 
   const changeScore = (status) => {
-    console.log(status);
     if (!status) {
       setScore({
         ...score,

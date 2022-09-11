@@ -13,12 +13,12 @@ const Container = ({ changeScore }) => {
   });
   const [content, setContent] = useState(null);
 
-  const arrangedCards = (() => {
+  const arrangedCards = () => {
     return cardsInfo.map((cardObj) => {
       return { info: cardObj, isClicked: false, id: Uniqid() };
     });
-  })();
-  const [cards, setCards] = useState(arrangedCards);
+  };
+  const [cards, setCards] = useState(arrangedCards());
 
   const shuffleCards = (status) => {
     if (!status) {
@@ -30,7 +30,7 @@ const Container = ({ changeScore }) => {
         ...mode,
         loading: true,
       });
-      setCards(arrangedCards);
+      setCards(arrangedCards());
     }
   };
 
