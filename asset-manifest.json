@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/memory_game/static/css/main.4f812872.css",
-    "main.js": "/memory_game/static/js/main.25893bfe.js",
+    "main.js": "/memory_game/static/js/main.44546880.js",
     "static/js/787.69b12325.chunk.js": "/memory_game/static/js/787.69b12325.chunk.js",
     "static/media/wallpaper.jpg": "/memory_game/static/media/wallpaper.bdda50cafc7989d0e443.jpg",
     "static/media/chest.gif": "/memory_game/static/media/chest.732d0b25766d9e7cfe34.gif",
@@ -26,11 +26,11 @@
     "static/media/gravitation_falls.ttf": "/memory_game/static/media/gravitation_falls.4b766b08c37e8817cb96.ttf",
     "index.html": "/memory_game/index.html",
     "main.4f812872.css.map": "/memory_game/static/css/main.4f812872.css.map",
-    "main.25893bfe.js.map": "/memory_game/static/js/main.25893bfe.js.map",
+    "main.44546880.js.map": "/memory_game/static/js/main.44546880.js.map",
     "787.69b12325.chunk.js.map": "/memory_game/static/js/787.69b12325.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f812872.css",
-    "static/js/main.25893bfe.js"
+    "static/js/main.44546880.js"
   ]
 }
